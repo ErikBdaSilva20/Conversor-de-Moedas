@@ -1,0 +1,364 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 700;
+}
+
+
+body {
+    background: rgb(29, 0, 86); 
+}
+
+.img-logoGif{
+    display: block;
+    height: 300px;
+    width: 300px;
+    margin: 15px auto;
+    border-radius: 20px;
+}
+
+main{
+    display: block;
+    width: 327px;
+    height: 72px;
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+label{
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 14px;
+    width: 100%;
+    background-color: rgb(49, 19, 125);
+}
+
+select{
+    background-color: rgb(60, 12, 181);
+
+    border: none;
+    color: white;
+    border-radius: 20px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 24px;
+    appearance: none;
+    padding-left: 18px;
+    font-weight: 200;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+input{ 
+    background-color: rgb(49, 19, 125);
+    border: none;
+    border-radius: 20px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 24px;
+    appearance: none;
+    padding-left: 18px;
+    font-weight: 200;
+    font-size: 16px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+button{
+    background-image: linear-gradient(#6a00ff, #290051) ;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    height: 48px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+button:hover{
+    opacity: 0.8;
+}
+button:active {
+    opacity: 0.6;
+}
+
+section{
+    border-radius: 20px;
+    border: none;
+    margin-top: 36px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(49, 19, 125);
+
+}
+
+main-input{
+    display: block;
+    position: relative;
+    border-radius: 8px;
+    border: 1px solid #8a51fc;
+    padding: 24px;
+    font-size: 14px;
+    font-weight: 701;
+    appearance: none;
+    cursor: pointer;
+    border-width: 2px;
+    width: 327px;
+    margin-top: 13px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.first-currency-select{
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 24px;
+    appearance: none;
+    padding-left: 18px;
+    font-weight: 200;
+    font-size: 16px;
+    color: #ffffff;
+    cursor: pointer;
+
+
+}
+
+.arrow-img{
+    margin: 15px 0;
+}
+
+.currency-area{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 280px;
+    gap: 4px;
+    color: rgb(255, 255, 255);
+}
+
+.currency{
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.currency-value-Converted, .currency-value-to-convert{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.currency-img{
+    box-shadow: 0 0 0 0.25;
+}
+
+
+/* Para dispositivos móveis (celulares) */
+@media (max-width: 768px) {
+    .img-logoGif {
+        height: 200px;
+        width: 200px;
+    }
+
+    main {
+        width: 90%;  /* Ajuste para dar mais espaço em telas pequenas */
+        margin-top: 20px;
+    }
+
+    label, select, input, button {
+        font-size: 14px;  /* Fonte um pouco menor para caber melhor */
+    }
+
+    .currency-area {
+        width: 100%;  /* Deixar o espaço das áreas flexível */
+    }
+
+    .currency-value-Converted, .currency-value-to-convert {
+        font-size: 18px;  /* Ajuste do tamanho de fonte */
+    }
+
+    section {
+        padding: 10px;
+        margin-top: 20px;
+    }
+
+    .main-input {
+        width: 100%;  /* Ocupa a largura inteira da tela */
+    }
+
+    .currency-select-first-value {
+        width: 100%;  /* Ocupa a largura inteira da tela */
+    }
+
+
+    /* Para dispositivos de notebook (900px a 1200px) */
+@media (max-width: 1200px) and (min-width: 900px) {
+    .img-logoGif {
+        height: 250px;
+        width: 250px;
+    }
+
+    main {
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    label, select, input, button {
+        font-size: 15px;
+    }
+
+    .currency-area {
+        width: 90%;
+    }
+
+    .currency-value-Converted, .currency-value-to-convert {
+        font-size: 19px;
+    }
+
+    section {
+        padding: 15px;
+        margin-top: 30px;
+    }
+
+    .main-input {
+        width: 90%;
+    }
+
+    .currency-select-first-value {
+        width: 90%;
+    }
+}
+
+/* Para dispositivos móveis (menor que 600px) */
+@media (max-width: 600px) {
+    .img-logoGif {
+        height: 200px;
+        width: 200px;
+    }
+
+    main {
+        width: 90%;
+        margin-top: 16px;
+    }
+
+    label, select, input, button {
+        font-size: 14px;
+    }
+
+    .currency-area {
+        width: 100%;
+    }
+
+    .currency-value-Converted, .currency-value-to-convert {
+        font-size: 18px;
+    }
+
+    section {
+        padding: 10px;
+        margin-top: 20px;
+    }
+
+    .main-input {
+        width: 100%;
+    }
+
+    .currency-select-first-value {
+        width: 100%;
+    }
+}
+
+/* Início da media query para telas pequenas (celulares em pé ou deitados) */
+@media (max-width: 768px) and (orientation: portrait) {
+    /* Ajustes para celular em pé */
+    .img-logoGif {
+        height: 200px;
+        width: 200px;
+    }
+
+    main {
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    label, select, input, button {
+        font-size: 14px;
+    }
+
+    .currency-area {
+        width: 100%;
+    }
+
+    .currency-value-Converted, .currency-value-to-convert {
+        font-size: 18px;
+    }
+
+    section {
+        padding: 10px;
+        margin-top: 20px;
+    }
+
+    .main-input {
+        width: 100%;
+    }
+
+    .currency-select-first-value {
+        width: 100%;
+    }
+}
+
+/* Início da media query para celulares deitados (paisagem) */
+@media (max-width: 768px) and (orientation: landscape) {
+    /* Ajustes para celular deitado */
+    .img-logoGif {
+        height: 180px;
+        width: 180px;
+    }
+
+    main {
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    label, select, input, button {
+        font-size: 16px;
+    }
+
+    .currency-area {
+        width: 100%;
+    }
+
+    .currency-value-Converted, .currency-value-to-convert {
+        font-size: 20px;
+    }
+
+    section {
+        padding: 12px;
+        margin-top: 24px;
+    }
+
+    .main-input {
+        width: 100%;
+    }
+
+    .currency-select-first-value {
+        width: 100%;
+    }
+}
+
+}
+
