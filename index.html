@@ -20,24 +20,22 @@
         <section>
             <label>
                 Converter <b>de</b>
-                <select class="currency-select-first-value" onchange="changesecondselect()">
+                <select class="currency-select-first-value" onchange="updateFirstCurrency(); convertvalues();">
                     <option value="real">R$ Real</option>
                     <option value="euro">€ Euro</option>
                     <option value="btc">₿ Bitcoin</option>
                     <option value="libra">£ Libra</option>
-                    <option value="dolar">£ Dolar Americano</option>
+                    <option value="dolar">US$ Dólar Americano</option>
                 </select>
-
             <label>
+                
                 Converter <b>para</b>
-                <select class="currency-select-second" onchange="changesecondselect()">
-                    <option value="dolar">US$ Dolar americano</option>
+                <select class="currency-select-second" onchange="updateSecondCurrency(); convertvalues();">
+                    <option value="dolar">US$ Dólar Americano</option>
                     <option value="euro">€ Euro</option>
                     <option value="btc">₿ Bitcoin</option>
                     <option value="libra">£ Libra</option>
                     <option value="real">R$ Real</option>
-                    
-
                 </select>
             </label>
 
