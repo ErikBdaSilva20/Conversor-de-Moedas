@@ -42,19 +42,16 @@ function convertvalues() {
     }
 
     if(fromCurrency === toCurrency){
-       resultValues = null
-        
+       resultValues = null;
     }
- 
 
     // Exibe o valor convertido
     ValueConverted.innerHTML = formatCurrency(resultValues, toCurrency);
 
     // Atualizar a imagem e o nome da moeda convertida e original
-    updateFirstCurrency(valueToConvert)
-    updateSecondCurrency()
+    updateFirstCurrency(valueToConvert);
+    updateSecondCurrency();
 }
-
 
 // Função para formatar os valores de acordo com a moeda
 function formatCurrency(value, currency) {
@@ -80,12 +77,10 @@ function formatCurrency(value, currency) {
         style: "currency",
         currency: currencyFormat
     }).format(value);
-
-    
 }
 
 // Função para atualizar o nome da moeda e a imagem no primeiro select
-function updateFirstCurrency(value) {
+function updateFirstCurrency() {
     const firstCurrencyName = document.getElementById("currency-first-name");
     const changeImageValue = document.querySelector(".currency-select-first-img");
     const selectedCurrency = document.querySelector(".currency-select-first-value").value;
@@ -101,9 +96,6 @@ function updateFirstCurrency(value) {
 
     firstCurrencyName.innerHTML = currencies[selectedCurrency].name;
     changeImageValue.src = currencies[selectedCurrency].img;
-
-    // Exibe o valor na moeda de origem
-    document.querySelector(".currency-value-to-convert").innerHTML = formatCurrency(value, selectedCurrency);
 }
 
 // Função para atualizar o nome da moeda e a imagem no segundo select
@@ -123,3 +115,4 @@ function updateSecondCurrency() {
     secondCurrencyName.innerHTML = currencies[selectedCurrency].name;
     changeImageValue.src = currencies[selectedCurrency].img;
 }
+    
