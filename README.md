@@ -1,5 +1,4 @@
 <h1>🌍💸 Conversor de Moedas</h1>
-
 <h2>🔹 Sobre o Projeto</h2>
 <p>
     O Conversor de Moedas é uma ferramenta desenvolvida para realizar a conversão entre diferentes moedas de forma simples e eficiente.<br>
