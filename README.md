@@ -6,12 +6,15 @@
     Além de funcional, o projeto foi uma oportunidade para explorar conceitos básicos de <b>HTML</b>, <b>CSS</b> e <b>JavaScript</b> em conjunto.
 </p>
 
+<h2>🔹 Mudanças Recentes</h2>
+<p>Recentemente, foi adicionada uma API de valores de câmbio para fornecer taxas de câmbio atualizadas em tempo real. Esta alteração foi feita como meu primeiro contato com APIs para obter valores dinâmicos de uma fonte externa. Agora, o conversor de moedas não depende mais de taxas fixas, e sim de informações em tempo real, trazendo maior precisão ao projeto.<p>
+
 <h2>🔹 Como Funciona</h2>
 <ul>
     <li>💰 O usuário insere um valor a ser convertido.</li>
-    <li>🌐 Seleciona a moeda de origem (de um menu suspenso) e a moeda de destino.</li>
-    <li>📊 O sistema exibe o valor convertido com base em taxas de câmbio fictícias definidas.</li>
-    <li>📱 A interface é responsiva, garantindo boa visualização em dispositivos móveis e desktops.</li>
+<li>🌐 Seleciona a moeda de origem (de um menu suspenso) e a moeda de destino.</li>
+<li>📊 O sistema exibe o valor convertido com base nas taxas de câmbio atualizadas da API.</li>
+<li>📱 A interface é responsiva, garantindo boa visualização em dispositivos móveis e desktops.</li>
 </ul>
 
 <h2>🔹 Tecnologias Utilizadas</h2>
@@ -26,3 +29,6 @@
 
 <h2>🔹 Projeto no GitHub Pages</h2>
 <p>🌐 <a href="https://erikbdasilva20.github.io/Conversor-de-Moedas" target="_blank">Visualizar projeto no GitHub Pages</a></p>
+
+🔹 Como Funciona
+ 
