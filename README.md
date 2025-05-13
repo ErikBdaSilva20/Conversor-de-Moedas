@@ -10,6 +10,7 @@
 <p>Recentemente, foi adicionada uma API de valores de câmbio para fornecer taxas de câmbio atualizadas em tempo real. Esta alteração foi feita como meu primeiro contato com APIs para obter valores dinâmicos de uma fonte externa. Agora, o conversor de moedas não depende mais de taxas fixas, e sim de informações em tempo real, trazendo maior precisão ao projeto.<p>
 
 <h2>🔹 Como Funciona</h2>
+
 <ul>
     <li>💰 O usuário insere um valor a ser convertido.</li>
 <li>🌐 Seleciona a moeda de origem (de um menu suspenso) e a moeda de destino.</li>
