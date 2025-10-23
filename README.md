@@ -24,8 +24,10 @@
     <img alt="JavaScript Badge" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 </p>
 
-<p>📂 Repositório no GitHub: <a href="https://github.com/ErikBdaSilva20/Conversor-de-Moedas" target="_blank">https://github.com/ErikBdaSilva20/Conversor-de-Moedas</a></p>
+<h2>🌟 Links</h2>
 
-<p>🌐 Projeto no GitHub Pages:  <a href="https://erikbdasilva20.github.io/Conversor-de-Moedas" target="_blank">https://erikbdasilva20.github.io/Conversor-de-Moedas</a></p>
- 
-<p>🔗 Perfil no Linkedin: <a href="www.linkedin.com/in/erik-borgessilva20" target="_blank"> www.linkedin.com/in/erik-borgessilva20</a></p>
+📂 Repositório no GitHub: [https://github.com/ErikBdaSilva20/Conversor-de-Moedas](https://github.com/ErikBdaSilva20/Conversor-de-Moedas)
+
+🌐 Projeto no GitHub Pages: [https://erikbdasilva20.github.io/Conversor-de-Moedas](https://erikbdasilva20.github.io/Conversor-de-Moedas)
+
+🔗 Perfil no LinkedIn: [https://www.linkedin.com/in/erik-borgessilva20](https://www.linkedin.com/in/erik-borgessilva20)
