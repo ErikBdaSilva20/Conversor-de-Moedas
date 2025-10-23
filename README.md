@@ -6,8 +6,7 @@
     Além de funcional, o projeto foi uma oportunidade para explorar conceitos básicos de <b>HTML</b>, <b>CSS</b> e <b>JavaScript</b> em conjunto.
 </p>
 
-<h2>🔹 Mudanças Recentes</h2>
-<p>Recentemente, foi adicionada uma API de valores de câmbio para fornecer taxas de câmbio atualizadas em tempo real. Esta alteração foi feita como meu primeiro contato com APIs para obter valores dinâmicos de uma fonte externa. Agora, o conversor de moedas não depende mais de taxas fixas, e sim de informações em tempo real, trazendo maior precisão ao projeto.<p>
+<p>Foi adicionada uma API de valores de câmbio para fornecer taxas de câmbio atualizadas em tempo real. Esta alteração foi feita como meu primeiro contato com APIs para obter valores dinâmicos de uma fonte externa. Agora, o conversor de moedas não depende mais de taxas fixas, e sim de informações em tempo real, trazendo maior precisão ao projeto.<p>
 
 <h2>🔹 Como Funciona</h2>
 
@@ -25,11 +24,8 @@
     <img alt="JavaScript Badge" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 </p>
 
-<h2>🔹 Repositório no GitHub</h2>
-<p>📂 <a href="https://github.com/ErikBdaSilva20/Conversor-de-Moedas" target="_blank">Clique aqui para acessar o repositório</a></p>
+<p>📂 Repositório no GitHub: <a href="https://github.com/ErikBdaSilva20/Conversor-de-Moedas" target="_blank">https://github.com/ErikBdaSilva20/Conversor-de-Moedas</a></p>
 
-<h2>🔹 Projeto no GitHub Pages</h2>
-<p>🌐 <a href="https://erikbdasilva20.github.io/Conversor-de-Moedas" target="_blank">Visualizar projeto no GitHub Pages</a></p>
-
-🔹 Como Funciona
+<p>🌐 Projeto no GitHub Pages:  <a href="https://erikbdasilva20.github.io/Conversor-de-Moedas" target="_blank">https://erikbdasilva20.github.io/Conversor-de-Moedas</a></p>
  
+<p>🔗 Perfil no Linkedin: <a href="www.linkedin.com/in/erik-borgessilva20" target="_blank"> www.linkedin.com/in/erik-borgessilva20</a></p>
